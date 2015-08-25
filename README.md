@@ -26,9 +26,17 @@ The procedure of inserting an element to a HashSet
 •	Step 3: If the location is empty, save the new element as well as its hash code to the location; if the location is already occupied, then build a linked list and add the new element at the end of the linked list.  
 •	If all the elements have the same hash codes in the HashSet, then the HashSet will be reduced to a LinkedList and its lookup time will be decreased from O(1) to O(n).
 
-	What is the load factor of a HashSet?
+What is the load factor of a HashSet?
 •	By default, load factor is 75%. If the number of the elements reaches 75% of the capacity, the HashSet will double its size and all the elements will be rehashed to the new container.
 •	The load factor can be customized as a parameter when we instantiate a HashSet.
+
+
+ArrayList, LinkedList, Vector
+
+	Difference between ArrayList and Vector
+	ArrayList is not thread-safe, while Vector is thread-safe. So ArrayList has better performance than Vector.
+	When the collection needs resizing, ArrayList  increases 50%, while Vector increases 100%
+
 
 
 
