@@ -33,9 +33,9 @@ What is the load factor of a HashSet?
 
 ArrayList, LinkedList, Vector
 
-	Difference between ArrayList and Vector
-	ArrayList is not thread-safe, while Vector is thread-safe. So ArrayList has better performance than Vector.
-	When the collection needs resizing, ArrayList  increases 50%, while Vector increases 100%
+Difference between ArrayList and Vector
+ArrayList is not thread-safe, while Vector is thread-safe. So ArrayList has better performance than Vector.
+When the collection needs resizing, ArrayList  increases 50%, while Vector increases 100%
 
 
 
