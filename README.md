@@ -20,5 +20,12 @@ All the operations that you perform on a data such as searching, sorting, insert
 
 Java Collection simply means a single unit of objects. Java Collection framework provides many interfaces (Set, List, Queue, Deque etc.) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet, TreeSet etc).
 
+	The procedure of inserting an element to a HashSet
+•	Step 1: the HashSet verifies whether the new element is a duplicate or not. If it is not a duplicate, then move to Step 2
+•	Step 2: Use a hash function to operate on the hash code of the new element and get the location in the bucket.
+•	Step 3: If the location is empty, save the new element as well as its hash code to the location; if the location is already occupied, then build a linked list and add the new element at the end of the linked list.  
+•	If all the elements have the same hash codes in the HashSet, then the HashSet will be reduced to a LinkedList and its lookup time will be decreased from O(1) to O(n).
+
+
 
 
