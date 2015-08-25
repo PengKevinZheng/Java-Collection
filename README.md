@@ -2,10 +2,10 @@
 
 For Collection interface, we have list, set and queue. Java also has an interface called Map.
 
-	Why Map interface doesn’t extend Collection interface?
+Why Map interface doesn’t extend Collection interface?
 If  Map  extends  Collection  interface,  then  where  are the  elements?  Map contains  key-value  pairs  and  it  provides methods to retrieve list of Keys or values as Collection but it doesn’t fit into the “group of elements” paradigm.
 
-	Hashcode() and equals()
+Hashcode() and equals()
 
 The contract between equals() and hashCode() is that: 
 
