@@ -3,6 +3,7 @@
 For Collection interface, we have list, set and queue. Java also has an interface called Map.
 
 Why Map interface doesn’t extend Collection interface?
+
     If  Map  extends  Collection  interface,  then  where  are the  elements?  Map contains  key-value  pairs  and  it            provides methods to retrieve list of Keys or values as Collection but it doesn’t fit into the “group of elements”             paradigm.
 
 Hashcode() and equals()
@@ -28,6 +29,7 @@ The procedure of inserting an element to a HashSet
     •	If all the elements have the same hash codes in the HashSet, then the HashSet will be reduced to a LinkedList and its       lookup time will be decreased from O(1) to O(n).
 
 What is the load factor of a HashSet?
+
     •	By default, load factor is 75%. If the number of the elements reaches 75% of the capacity, the HashSet will double its      size and all the elements will be rehashed to the new container.
     •	The load factor can be customized as a parameter when we instantiate a HashSet.
 
